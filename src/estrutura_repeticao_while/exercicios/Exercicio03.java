@@ -1,4 +1,4 @@
-package estrutura_repeticao.exercicios;
+package estrutura_repeticao_while.exercicios;
 
 import java.util.Scanner;
 
