@@ -10,7 +10,6 @@ public class DollarConverterProgram {
         Locale.setDefault(Locale.US);
         Scanner input = new Scanner(System.in);
         
-
         System.out.print("What is the dollar price? ");
         CurrencyConverter.priceDolar = input.nextDouble();
 
@@ -18,7 +17,7 @@ public class DollarConverterProgram {
         CurrencyConverter.value = input.nextDouble();
 
         System.out.printf("Amount to be paid in reais: %.2f%n", CurrencyConverter.converter());
-
+        
         input.close();
     }
 }
