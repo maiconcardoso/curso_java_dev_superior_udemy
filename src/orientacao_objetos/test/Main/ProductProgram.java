@@ -17,6 +17,7 @@ public class ProductProgram {
         double price = input.nextDouble();
         System.out.print("Quantity: ");
         int quantity = input.nextInt();
+        
         Product product = new Product(name, price, quantity);
 
         System.out.println("Product data: " + product);
