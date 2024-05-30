@@ -9,35 +9,36 @@ public class ProgramAccontBank {
     public static void main(String[] args) {
         Locale.setDefault(Locale.US);
         Scanner input = new Scanner(System.in);
-        double value;
+        AccountBank accountBank;
 
         System.out.print("Enter account number: ");
         int account = input.nextInt();
         System.out.print("Enter account holder: ");
+        input.nextLine();
         String holder = input.nextLine();
-        holder = input.nextLine();
         
         double initialDepositValue;
         System.out.print("Is there an initial deposit? (y/n): ");
-        String option = input.next();
-        if (option.equals("y")) {
+        char option = input.next().charAt(0);
+        if (option == 'y') {
             System.out.print("Enter initial deposit value: ");
             initialDepositValue = input.nextDouble();
+            accountBank = new AccountBank(account, holder, initialDepositValue);
         } else {
             initialDepositValue = 0.0;
+            accountBank = new AccountBank(account, holder);
         }
-        AccountBank accountBank = new AccountBank(account, holder);
         accountBank.deposit(initialDepositValue);
         System.out.println(accountBank);
 
         System.out.print("Enter a deposit value: ");
-        value = input.nextDouble();
-        accountBank.deposit(value);
+        double depositValue = input.nextDouble();
+        accountBank.deposit(depositValue);
         System.out.println(accountBank);
 
         System.out.print("Enter a withdraw value: ");
-        value = input.nextDouble();
-        accountBank.whithDraw(value);
+        double withDrawValue = input.nextDouble();
+        accountBank.whithDraw(withDrawValue);
         System.out.println(accountBank);
 
 

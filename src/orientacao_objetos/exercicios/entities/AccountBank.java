@@ -4,22 +4,20 @@ public class AccountBank {
     
     private int account;
     private String holder;
-    private double initialDepositValue;
     private double balance = 0;
     private static final double TAX = 5.00;
 
     public AccountBank() {}
 
-    public AccountBank(int account, String holder, double initialDepositValue) {
+    public AccountBank(int account, String holder, double initialDeposit) {
         this.account = account;
         this.holder = holder;
-        this.initialDepositValue = initialDepositValue;
+        this.deposit(initialDeposit);
     }
 
     public AccountBank(int account, String holder) {
         this.account = account;
         this.holder = holder;
-        this.initialDepositValue = 0;
     }
 
     public int getAccount() {
@@ -34,20 +32,16 @@ public class AccountBank {
         this.holder = holder;
     }
 
-    public double getInitialDepositValue() {
-        return this.initialDepositValue;
-    }
-
     public double getBalance() {
         return this.balance;
     }
 
-    public void deposit(double depositValue) {
-        this.balance += depositValue + getInitialDepositValue();
+    public void deposit(double amount) {
+        this.balance += amount;
     }
 
-    public void whithDraw(double value) {
-        this.balance = this.balance - value + TAX;
+    public void whithDraw(double amount) {
+        this.balance -= amount + TAX;
     }
 
     @Override
