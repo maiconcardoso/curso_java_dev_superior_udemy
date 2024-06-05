@@ -5,7 +5,7 @@ import java.util.List;
 import java.util.Locale;
 import java.util.Scanner;
 
-import arrays.exercicios.entities.Employee;
+import arrays.entities.Employee;
 
 public class Exercicio13 {
     public static void main(String[] args) {

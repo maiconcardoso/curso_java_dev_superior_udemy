@@ -3,7 +3,7 @@ package arrays.exercicios;
 import java.util.Locale;
 import java.util.Scanner;
 
-import arrays.exercicios.entities.Rent;
+import arrays.entities.Rent;
 
 public class Exercicio12 {
     public static void main(String[] args) {

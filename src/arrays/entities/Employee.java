@@ -1,4 +1,4 @@
-package arrays.exercicios.entities;
+package arrays.entities;
 
 public class Employee {
     
