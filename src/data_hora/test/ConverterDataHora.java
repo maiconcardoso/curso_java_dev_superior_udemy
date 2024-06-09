@@ -17,7 +17,6 @@ public class ConverterDataHora {
         DateTimeFormatter df2 = DateTimeFormatter.ofPattern("dd/MM/yyyy HH:mm");
         DateTimeFormatter df3 = DateTimeFormatter.ofPattern("dd/MM/yyyy HH:mm:ss").withZone(ZoneId.systemDefault());
 
-
         System.out.println("d01 = " + d01.format(df1));
         System.out.println("d02 = " + d02.format(df2));
         System.out.println("d03 = " + df3.format(d03));
