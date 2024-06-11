@@ -17,12 +17,11 @@ public class Worker {
     public Worker() {
     }
 
-    public Worker(String name, WorkLevel level, Double baseSalary, List<HourContract> contracts,
+    public Worker(String name, WorkLevel level, Double baseSalary,
             Department department) {
         this.name = name;
         this.level = level;
         this.baseSalary = baseSalary;
-        this.contracts = contracts;
         this.department = department;
     }
 
@@ -75,11 +74,10 @@ public class Worker {
         for (HourContract c: contracts) {
             Integer c_year = c.getDate().getYear();
             Integer c_month = c.getDate().getMonthValue();
-            if (year == c_year && month == c_month) {
+            if (year.equals(c_year) && month.equals(c_month)) {
                 sum += c.totalValue();
             }
         }
-
         return sum;
     }
 }
