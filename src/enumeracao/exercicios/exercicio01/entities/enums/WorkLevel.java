@@ -1,4 +1,4 @@
-package enumeracao.exercicios.entities.enums;
+package enumeracao.exercicios.exercicio01.entities.enums;
 
 public enum WorkLevel {
     JUNIOR,

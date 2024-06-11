@@ -1,4 +1,4 @@
-package enumeracao.exercicios.program;
+package enumeracao.exercicios.exercicio01.program;
 
 import java.text.ParseException;
 import java.time.LocalDate;
@@ -6,10 +6,10 @@ import java.time.format.DateTimeFormatter;
 import java.util.Locale;
 import java.util.Scanner;
 
-import enumeracao.exercicios.entities.Department;
-import enumeracao.exercicios.entities.HourContract;
-import enumeracao.exercicios.entities.Worker;
-import enumeracao.exercicios.entities.enums.WorkLevel;
+import enumeracao.exercicios.exercicio01.entities.Department;
+import enumeracao.exercicios.exercicio01.entities.HourContract;
+import enumeracao.exercicios.exercicio01.entities.Worker;
+import enumeracao.exercicios.exercicio01.entities.enums.WorkLevel;
 
 public class Program {
     public static void main(String[] args) throws ParseException {

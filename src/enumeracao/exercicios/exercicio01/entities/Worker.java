@@ -1,9 +1,9 @@
-package enumeracao.exercicios.entities;
+package enumeracao.exercicios.exercicio01.entities;
 
 import java.util.ArrayList;
 import java.util.List;
 
-import enumeracao.exercicios.entities.enums.WorkLevel;
+import enumeracao.exercicios.exercicio01.entities.enums.WorkLevel;
 
 public class Worker {
     

@@ -1,4 +1,4 @@
-package enumeracao.exercicios.entities;
+package enumeracao.exercicios.exercicio01.entities;
 
 public class Department {
     
