@@ -50,7 +50,7 @@ public class OrderItem {
         sb.append(product.getName() + ", ");
         sb.append("Price: " + getPrice() + ", ");
         sb.append("Quantity: " + quantity + ", ");
-        sb.append("SubTotal: " + subTotal() + "\n");
+        sb.append("SubTotal: " + String.format("%.2f", subTotal()) + "\n");
         return sb.toString();
     }
 }
