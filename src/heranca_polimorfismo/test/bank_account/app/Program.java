@@ -7,7 +7,7 @@ import heranca_polimorfismo.test.bank_account.entities.SavingsAccount;
 public class Program {
     public static void main(String[] args) {
         
-        Account account = new Account(1001, "José", 0.0);
+        //Account account = new Account(1001, "José", 0.0);
         BusinessAccount businessAccount = new BusinessAccount(1002, "Maria", 0.0, 1000.0);
 
         // UPCASTING

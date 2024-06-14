@@ -10,9 +10,9 @@ public class TestingOverride {
     public static void main(String[] args) {
         Locale.setDefault(Locale.US);
 
-        Account account = new Account(1001, "Maria", 1000.0);
+        /* Account account = new Account(1001, "Maria", 1000.0);
         account.withdraw(200.0);
-        System.out.println(account.getBalance());
+        System.out.println(account.getBalance()); */
 
         Account account2 = new SavingsAccount(
             1002, "Alex", 1000.0, 0.01
