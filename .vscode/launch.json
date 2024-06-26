@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "FileAndBuff",
+            "request": "launch",
+            "mainClass": "arquivos.test.FileAndBuff",
+            "projectName": "projeto_java_2db18b05"
+        },
+        {
+            "type": "java",
             "name": "Main",
             "request": "launch",
             "mainClass": "arquivos.test.Main",
