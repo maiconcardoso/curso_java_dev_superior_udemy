@@ -1,0 +1,490 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Main",
+            "request": "launch",
+            "mainClass": "arquivos.test.Main",
+            "projectName": "projeto_java_2db18b05"
+        },
+        {
+            "type": "java",
+            "name": "Program",
+            "request": "launch",
+            "mainClass": "excecao.exercicios.bank_account.app.Program",
+            "projectName": "projeto_java_2db18b05"
+        },
+        {
+            "type": "java",
+            "name": "Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "App",
+            "request": "launch",
+            "mainClass": "App",
+            "projectName": "projeto_java_2db18b05"
+        },
+        {
+            "type": "java",
+            "name": "Exercicio01",
+            "request": "launch",
+            "mainClass": "arrays.exercicios.Exercicio01",
+            "projectName": "projeto_java_2db18b05"
+        },
+        {
+            "type": "java",
+            "name": "Exercicio02",
+            "request": "launch",
+            "mainClass": "arrays.exercicios.Exercicio02",
+            "projectName": "projeto_java_2db18b05"
+        },
+        {
+            "type": "java",
+            "name": "Exercicio03",
+            "request": "launch",
+            "mainClass": "arrays.exercicios.Exercicio03",
+            "projectName": "projeto_java_2db18b05"
+        },
+        {
+            "type": "java",
+            "name": "Exercicio04",
+            "request": "launch",
+            "mainClass": "arrays.exercicios.Exercicio04",
+            "projectName": "projeto_java_2db18b05"
+        },
+        {
+            "type": "java",
+            "name": "Exercicio05",
+            "request": "launch",
+            "mainClass": "arrays.exercicios.Exercicio05",
+            "projectName": "projeto_java_2db18b05"
+        },
+        {
+            "type": "java",
+            "name": "Exercicio06",
+            "request": "launch",
+            "mainClass": "arrays.exercicios.Exercicio06",
+            "projectName": "projeto_java_2db18b05"
+        },
+        {
+            "type": "java",
+            "name": "Exercicio07",
+            "request": "launch",
+            "mainClass": "arrays.exercicios.Exercicio07",
+            "projectName": "projeto_java_2db18b05"
+        },
+        {
+            "type": "java",
+            "name": "Exercicio08",
+            "request": "launch",
+            "mainClass": "arrays.exercicios.Exercicio08",
+            "projectName": "projeto_java_2db18b05"
+        },
+        {
+            "type": "java",
+            "name": "Exercicio09",
+            "request": "launch",
+            "mainClass": "arrays.exercicios.Exercicio09",
+            "projectName": "projeto_java_2db18b05"
+        },
+        {
+            "type": "java",
+            "name": "Exercicio10",
+            "request": "launch",
+            "mainClass": "arrays.exercicios.Exercicio10",
+            "projectName": "projeto_java_2db18b05"
+        },
+        {
+            "type": "java",
+            "name": "Exercicio11",
+            "request": "launch",
+            "mainClass": "arrays.exercicios.Exercicio11",
+            "projectName": "projeto_java_2db18b05"
+        },
+        {
+            "type": "java",
+            "name": "Exercicio12",
+            "request": "launch",
+            "mainClass": "arrays.exercicios.Exercicio12",
+            "projectName": "projeto_java_2db18b05"
+        },
+        {
+            "type": "java",
+            "name": "Exercicio13",
+            "request": "launch",
+            "mainClass": "arrays.exercicios.Exercicio13",
+            "projectName": "projeto_java_2db18b05"
+        },
+        {
+            "type": "java",
+            "name": "Exercicio14",
+            "request": "launch",
+            "mainClass": "arrays.exercicios.Exercicio14",
+            "projectName": "projeto_java_2db18b05"
+        },
+        {
+            "type": "java",
+            "name": "ExercicioMatriz",
+            "request": "launch",
+            "mainClass": "arrays.exercicios.ExercicioMatriz",
+            "projectName": "projeto_java_2db18b05"
+        },
+        {
+            "type": "java",
+            "name": "ClasseDate",
+            "request": "launch",
+            "mainClass": "data_hora.test.ClasseDate",
+            "projectName": "projeto_java_2db18b05"
+        },
+        {
+            "type": "java",
+            "name": "ConverterDataHora",
+            "request": "launch",
+            "mainClass": "data_hora.test.ConverterDataHora",
+            "projectName": "projeto_java_2db18b05"
+        },
+        {
+            "type": "java",
+            "name": "DataHora",
+            "request": "launch",
+            "mainClass": "data_hora.test.DataHora",
+            "projectName": "projeto_java_2db18b05"
+        },
+        {
+            "type": "java",
+            "name": "Program",
+            "request": "launch",
+            "mainClass": "enumeracao.exercicios.exercicio01.program.Program",
+            "projectName": "projeto_java_2db18b05"
+        },
+        {
+            "type": "java",
+            "name": "Program(1)",
+            "request": "launch",
+            "mainClass": "enumeracao.exercicios.exercicio02.program.Program",
+            "projectName": "projeto_java_2db18b05"
+        },
+        {
+            "type": "java",
+            "name": "Program(2)",
+            "request": "launch",
+            "mainClass": "enumeracao.exercicios.exercicio03.program.Program",
+            "projectName": "projeto_java_2db18b05"
+        },
+        {
+            "type": "java",
+            "name": "Program(3)",
+            "request": "launch",
+            "mainClass": "enumeracao.test.program.Program",
+            "projectName": "projeto_java_2db18b05"
+        },
+        {
+            "type": "java",
+            "name": "Exercicio01(1)",
+            "request": "launch",
+            "mainClass": "estrutura_condicional.exercicios.Exercicio01",
+            "projectName": "projeto_java_2db18b05"
+        },
+        {
+            "type": "java",
+            "name": "Exercicio02(1)",
+            "request": "launch",
+            "mainClass": "estrutura_condicional.exercicios.Exercicio02",
+            "projectName": "projeto_java_2db18b05"
+        },
+        {
+            "type": "java",
+            "name": "Exercicio03(1)",
+            "request": "launch",
+            "mainClass": "estrutura_condicional.exercicios.Exercicio03",
+            "projectName": "projeto_java_2db18b05"
+        },
+        {
+            "type": "java",
+            "name": "Exercicio04(1)",
+            "request": "launch",
+            "mainClass": "estrutura_condicional.exercicios.Exercicio04",
+            "projectName": "projeto_java_2db18b05"
+        },
+        {
+            "type": "java",
+            "name": "Exercicio05(1)",
+            "request": "launch",
+            "mainClass": "estrutura_condicional.exercicios.Exercicio05",
+            "projectName": "projeto_java_2db18b05"
+        },
+        {
+            "type": "java",
+            "name": "Exercicio06(1)",
+            "request": "launch",
+            "mainClass": "estrutura_condicional.exercicios.Exercicio06",
+            "projectName": "projeto_java_2db18b05"
+        },
+        {
+            "type": "java",
+            "name": "Exercicio07(1)",
+            "request": "launch",
+            "mainClass": "estrutura_condicional.exercicios.Exercicio07",
+            "projectName": "projeto_java_2db18b05"
+        },
+        {
+            "type": "java",
+            "name": "Exercicio01(2)",
+            "request": "launch",
+            "mainClass": "estrutura_repeticao_for.exercicios.Exercicio01",
+            "projectName": "projeto_java_2db18b05"
+        },
+        {
+            "type": "java",
+            "name": "Exercicio02(2)",
+            "request": "launch",
+            "mainClass": "estrutura_repeticao_for.exercicios.Exercicio02",
+            "projectName": "projeto_java_2db18b05"
+        },
+        {
+            "type": "java",
+            "name": "Exercicio03(2)",
+            "request": "launch",
+            "mainClass": "estrutura_repeticao_for.exercicios.Exercicio03",
+            "projectName": "projeto_java_2db18b05"
+        },
+        {
+            "type": "java",
+            "name": "Exercicio04(2)",
+            "request": "launch",
+            "mainClass": "estrutura_repeticao_for.exercicios.Exercicio04",
+            "projectName": "projeto_java_2db18b05"
+        },
+        {
+            "type": "java",
+            "name": "Exercicio05(2)",
+            "request": "launch",
+            "mainClass": "estrutura_repeticao_for.exercicios.Exercicio05",
+            "projectName": "projeto_java_2db18b05"
+        },
+        {
+            "type": "java",
+            "name": "Exercicio06(2)",
+            "request": "launch",
+            "mainClass": "estrutura_repeticao_for.exercicios.Exercicio06",
+            "projectName": "projeto_java_2db18b05"
+        },
+        {
+            "type": "java",
+            "name": "Exercicio07(2)",
+            "request": "launch",
+            "mainClass": "estrutura_repeticao_for.exercicios.Exercicio07",
+            "projectName": "projeto_java_2db18b05"
+        },
+        {
+            "type": "java",
+            "name": "Main",
+            "request": "launch",
+            "mainClass": "estrutura_repeticao_for.test.Main",
+            "projectName": "projeto_java_2db18b05"
+        },
+        {
+            "type": "java",
+            "name": "Exercicio01(3)",
+            "request": "launch",
+            "mainClass": "estrutura_repeticao_while.exercicios.Exercicio01",
+            "projectName": "projeto_java_2db18b05"
+        },
+        {
+            "type": "java",
+            "name": "Exercicio02(3)",
+            "request": "launch",
+            "mainClass": "estrutura_repeticao_while.exercicios.Exercicio02",
+            "projectName": "projeto_java_2db18b05"
+        },
+        {
+            "type": "java",
+            "name": "Exercicio03(3)",
+            "request": "launch",
+            "mainClass": "estrutura_repeticao_while.exercicios.Exercicio03",
+            "projectName": "projeto_java_2db18b05"
+        },
+        {
+            "type": "java",
+            "name": "ConversaoCelsiusFahrenheit",
+            "request": "launch",
+            "mainClass": "estrutura_repeticao_while.test.ConversaoCelsiusFahrenheit",
+            "projectName": "projeto_java_2db18b05"
+        },
+        {
+            "type": "java",
+            "name": "Main(1)",
+            "request": "launch",
+            "mainClass": "estrutura_repeticao_while.test.Main",
+            "projectName": "projeto_java_2db18b05"
+        },
+        {
+            "type": "java",
+            "name": "Exercicio00",
+            "request": "launch",
+            "mainClass": "estrutura_sequencial.exercicios.Exercicio00",
+            "projectName": "projeto_java_2db18b05"
+        },
+        {
+            "type": "java",
+            "name": "Exercicio01(4)",
+            "request": "launch",
+            "mainClass": "estrutura_sequencial.exercicios.Exercicio01",
+            "projectName": "projeto_java_2db18b05"
+        },
+        {
+            "type": "java",
+            "name": "Exercicio02(4)",
+            "request": "launch",
+            "mainClass": "estrutura_sequencial.exercicios.Exercicio02",
+            "projectName": "projeto_java_2db18b05"
+        },
+        {
+            "type": "java",
+            "name": "Exercicio03(4)",
+            "request": "launch",
+            "mainClass": "estrutura_sequencial.exercicios.Exercicio03",
+            "projectName": "projeto_java_2db18b05"
+        },
+        {
+            "type": "java",
+            "name": "Exercicio04(3)",
+            "request": "launch",
+            "mainClass": "estrutura_sequencial.exercicios.Exercicio04",
+            "projectName": "projeto_java_2db18b05"
+        },
+        {
+            "type": "java",
+            "name": "Exercicio05(3)",
+            "request": "launch",
+            "mainClass": "estrutura_sequencial.exercicios.Exercicio05",
+            "projectName": "projeto_java_2db18b05"
+        },
+        {
+            "type": "java",
+            "name": "Exercicio06(3)",
+            "request": "launch",
+            "mainClass": "estrutura_sequencial.exercicios.Exercicio06",
+            "projectName": "projeto_java_2db18b05"
+        },
+        {
+            "type": "java",
+            "name": "Program(4)",
+            "request": "launch",
+            "mainClass": "excecao.exercicios.hotel_reservation.app.Program",
+            "projectName": "projeto_java_2db18b05"
+        },
+        {
+            "type": "java",
+            "name": "Program(5)",
+            "request": "launch",
+            "mainClass": "excecao.test.Program",
+            "projectName": "projeto_java_2db18b05"
+        },
+        {
+            "type": "java",
+            "name": "Program(6)",
+            "request": "launch",
+            "mainClass": "heranca_polimorfismo.exercicios.products.app.Program",
+            "projectName": "projeto_java_2db18b05"
+        },
+        {
+            "type": "java",
+            "name": "Program(7)",
+            "request": "launch",
+            "mainClass": "heranca_polimorfismo.exercicios.shapes.app.Program",
+            "projectName": "projeto_java_2db18b05"
+        },
+        {
+            "type": "java",
+            "name": "Program(8)",
+            "request": "launch",
+            "mainClass": "heranca_polimorfismo.exercicios.taxs.app.Program",
+            "projectName": "projeto_java_2db18b05"
+        },
+        {
+            "type": "java",
+            "name": "Program(9)",
+            "request": "launch",
+            "mainClass": "heranca_polimorfismo.test.bank_account.app.Program",
+            "projectName": "projeto_java_2db18b05"
+        },
+        {
+            "type": "java",
+            "name": "TestingAbstractClass",
+            "request": "launch",
+            "mainClass": "heranca_polimorfismo.test.bank_account.app.TestingAbstractClass",
+            "projectName": "projeto_java_2db18b05"
+        },
+        {
+            "type": "java",
+            "name": "TestingOverride",
+            "request": "launch",
+            "mainClass": "heranca_polimorfismo.test.bank_account.app.TestingOverride",
+            "projectName": "projeto_java_2db18b05"
+        },
+        {
+            "type": "java",
+            "name": "Program(10)",
+            "request": "launch",
+            "mainClass": "heranca_polimorfismo.test.company.app.Program",
+            "projectName": "projeto_java_2db18b05"
+        },
+        {
+            "type": "java",
+            "name": "DollarConverterProgram",
+            "request": "launch",
+            "mainClass": "orientacao_objetos.exercicios.program.DollarConverterProgram",
+            "projectName": "projeto_java_2db18b05"
+        },
+        {
+            "type": "java",
+            "name": "ProgramAccontBank",
+            "request": "launch",
+            "mainClass": "orientacao_objetos.exercicios.program.ProgramAccontBank",
+            "projectName": "projeto_java_2db18b05"
+        },
+        {
+            "type": "java",
+            "name": "ProgramEmployee",
+            "request": "launch",
+            "mainClass": "orientacao_objetos.exercicios.program.ProgramEmployee",
+            "projectName": "projeto_java_2db18b05"
+        },
+        {
+            "type": "java",
+            "name": "ProgramRectangle",
+            "request": "launch",
+            "mainClass": "orientacao_objetos.exercicios.program.ProgramRectangle",
+            "projectName": "projeto_java_2db18b05"
+        },
+        {
+            "type": "java",
+            "name": "ProgramStudent",
+            "request": "launch",
+            "mainClass": "orientacao_objetos.exercicios.program.ProgramStudent",
+            "projectName": "projeto_java_2db18b05"
+        },
+        {
+            "type": "java",
+            "name": "ProductProgram",
+            "request": "launch",
+            "mainClass": "orientacao_objetos.test.Main.ProductProgram",
+            "projectName": "projeto_java_2db18b05"
+        },
+        {
+            "type": "java",
+            "name": "Program(11)",
+            "request": "launch",
+            "mainClass": "orientacao_objetos.test.Main.Program",
+            "projectName": "projeto_java_2db18b05"
+        }
+    ]
+}
