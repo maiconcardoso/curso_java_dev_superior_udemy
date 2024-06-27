@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "ManipulatingFilesAndFolders",
+            "request": "launch",
+            "mainClass": "arquivos.test.ManipulatingFilesAndFolders",
+            "projectName": "projeto_java_2db18b05"
+        },
+        {
+            "type": "java",
             "name": "WriterFileAndBuff",
             "request": "launch",
             "mainClass": "arquivos.test.WriterFileAndBuff",
