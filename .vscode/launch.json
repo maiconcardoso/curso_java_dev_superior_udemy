@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "ResourcesFile",
+            "request": "launch",
+            "mainClass": "arquivos.test.ResourcesFile",
+            "projectName": "projeto_java_2db18b05"
+        },
+        {
+            "type": "java",
             "name": "ManipulatingFilesAndFolders",
             "request": "launch",
             "mainClass": "arquivos.test.ManipulatingFilesAndFolders",
