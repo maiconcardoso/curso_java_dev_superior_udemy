@@ -8,6 +8,13 @@
             "type": "java",
             "name": "Program",
             "request": "launch",
+            "mainClass": "interfaces.exercicios.Program",
+            "projectName": "projeto_java_2db18b05"
+        },
+        {
+            "type": "java",
+            "name": "Program",
+            "request": "launch",
             "mainClass": "arquivos.exercicios.Program",
             "projectName": "projeto_java_2db18b05"
         },
