@@ -1,9 +1,9 @@
-package interfaces.exercicios.services;
+package interfaces.exercicios.contract.services;
 
 import java.time.LocalDate;
 
-import interfaces.exercicios.entities.Contract;
-import interfaces.exercicios.entities.Installment;
+import interfaces.exercicios.contract.entities.Contract;
+import interfaces.exercicios.contract.entities.Installment;
 
 public class ContractService {
 

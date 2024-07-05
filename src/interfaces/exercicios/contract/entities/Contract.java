@@ -1,4 +1,4 @@
-package interfaces.exercicios.entities;
+package interfaces.exercicios.contract.entities;
 
 import java.time.LocalDate;
 import java.util.ArrayList;
