@@ -1,6 +1,6 @@
 package set_map.test.set.entities;
 
-public class Product {
+public class Product implements Comparable<Product>{
 
     private String name;
     private Double price;
@@ -57,5 +57,15 @@ public class Product {
         } else if (!price.equals(other.price))
             return false;
         return true;
+    }
+
+    @Override
+    public int compareTo(Product other) {
+        return -price.compareTo(other.getPrice());
+    }
+
+    @Override
+    public String toString() {
+        return name + ", " + String.format("%.2f", price);
     }
 }
