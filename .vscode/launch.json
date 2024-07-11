@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Program",
+            "request": "launch",
+            "mainClass": "set_map.test.set.app.Program",
+            "projectName": "projeto_java_2db18b05"
+        },
+        {
+            "type": "java",
             "name": "Main",
             "request": "launch",
             "mainClass": "set_map.test.set.Main",
