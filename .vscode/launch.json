@@ -6,6 +6,27 @@
     "configurations": [
         {
             "type": "java",
+            "name": "SeriesDemo2",
+            "request": "launch",
+            "mainClass": "interfaces.book.exemples.app.SeriesDemo2",
+            "projectName": "projeto_java_2db18b05"
+        },
+        {
+            "type": "java",
+            "name": "SeriesDemo",
+            "request": "launch",
+            "mainClass": "interfaces.book.exemples.app.SeriesDemo",
+            "projectName": "projeto_java_2db18b05"
+        },
+        {
+            "type": "java",
+            "name": "Program",
+            "request": "launch",
+            "mainClass": "set_map.exercicios.app.Program",
+            "projectName": "projeto_java_2db18b05"
+        },
+        {
+            "type": "java",
             "name": "Program",
             "request": "launch",
             "mainClass": "set_map.test.set.app.Program",
