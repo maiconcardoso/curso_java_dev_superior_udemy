@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "WriteDemo",
+            "request": "launch",
+            "mainClass": "arquivos.test.book.WriteDemo",
+            "projectName": "projeto_java_2db18b05"
+        },
+        {
+            "type": "java",
+            "name": "ReadBytes",
+            "request": "launch",
+            "mainClass": "arquivos.test.book.ReadBytes",
+            "projectName": "projeto_java_2db18b05"
+        },
+        {
+            "type": "java",
             "name": "SeriesDemo2",
             "request": "launch",
             "mainClass": "interfaces.book.exemples.app.SeriesDemo2",
