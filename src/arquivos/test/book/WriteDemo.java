@@ -9,6 +9,5 @@ public class WriteDemo {
 
         System.out.write(b);
         System.out.write('\n');
-
     }
 }

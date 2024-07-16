@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "ShowFile",
+            "request": "launch",
+            "mainClass": "arquivos.test.book.ShowFile",
+            "projectName": "projeto_java_2db18b05"
+        },
+        {
+            "type": "java",
             "name": "WriteDemo",
             "request": "launch",
             "mainClass": "arquivos.test.book.WriteDemo",
