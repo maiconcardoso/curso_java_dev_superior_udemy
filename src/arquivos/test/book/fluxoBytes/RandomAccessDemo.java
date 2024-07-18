@@ -1,4 +1,4 @@
-package arquivos.test.book;
+package arquivos.test.book.fluxoBytes;
 
 import java.io.IOException;
 import java.io.RandomAccessFile;

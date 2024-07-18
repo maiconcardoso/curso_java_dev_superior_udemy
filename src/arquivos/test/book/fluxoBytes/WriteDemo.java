@@ -1,4 +1,4 @@
-package arquivos.test.book;
+package arquivos.test.book.fluxoBytes;
 
 public class WriteDemo {
     public static void main(String[] args) {

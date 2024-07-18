@@ -1,4 +1,4 @@
-package arquivos.test.book;
+package arquivos.test.book.fluxoBytes;
 
 /*
  * Copia um arquivo de texto.

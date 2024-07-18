@@ -1,4 +1,4 @@
-package arquivos.test.book;
+package arquivos.test.book.fluxoBytes;
 
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;
