@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "ReadLines",
+            "request": "launch",
+            "mainClass": "arquivos.test.book.fluxoCaracteres.ReadLines",
+            "projectName": "projeto_java_2db18b05"
+        },
+        {
+            "type": "java",
+            "name": "ReadChars",
+            "request": "launch",
+            "mainClass": "arquivos.test.book.fluxoCaracteres.ReadChars",
+            "projectName": "projeto_java_2db18b05"
+        },
+        {
+            "type": "java",
             "name": "RandomAccessDemo",
             "request": "launch",
             "mainClass": "arquivos.test.book.RandomAccessDemo",
