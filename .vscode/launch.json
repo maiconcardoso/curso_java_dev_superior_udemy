@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "RandomAccessDemo",
+            "request": "launch",
+            "mainClass": "arquivos.test.book.RandomAccessDemo",
+            "projectName": "projeto_java_2db18b05"
+        },
+        {
+            "type": "java",
             "name": "CopyFile",
             "request": "launch",
             "mainClass": "arquivos.test.book.CopyFile",
