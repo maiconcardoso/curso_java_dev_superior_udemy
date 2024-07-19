@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "DirListFiltered",
+            "request": "launch",
+            "mainClass": "arquivos.test.book.fluxoCaracteres.app.DirListFiltered",
+            "projectName": "projeto_java_2db18b05"
+        },
+        {
+            "type": "java",
+            "name": "DirList",
+            "request": "launch",
+            "mainClass": "arquivos.test.book.fluxoCaracteres.DirList",
+            "projectName": "projeto_java_2db18b05"
+        },
+        {
+            "type": "java",
             "name": "ReadLines",
             "request": "launch",
             "mainClass": "arquivos.test.book.fluxoCaracteres.ReadLines",
