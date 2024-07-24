@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "TreeSetDemo",
+            "request": "launch",
+            "mainClass": "set_map.book.tree_set.TreeSetDemo",
+            "projectName": "projeto_java_2db18b05"
+        },
+        {
+            "type": "java",
             "name": "LinkedListDemo",
             "request": "launch",
             "mainClass": "set_map.book.linked_list.LinkedListDemo",
