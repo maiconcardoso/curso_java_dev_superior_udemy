@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "LinkedListDemo",
+            "request": "launch",
+            "mainClass": "set_map.book.linked_list.LinkedListDemo",
+            "projectName": "projeto_java_2db18b05"
+        },
+        {
+            "type": "java",
             "name": "ArrayListDemo",
             "request": "launch",
             "mainClass": "set_map.book.array_list.ArrayListDemo",
