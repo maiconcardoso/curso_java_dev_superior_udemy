@@ -1,9 +1,9 @@
 package programacao_funcional.test.app;
 
 import java.util.ArrayList;
-import java.util.Collections;
 import java.util.List;
 
+import programacao_funcional.test.entities.MyComparator;
 import programacao_funcional.test.entities.Product;
 
 public class Program {
@@ -14,7 +14,7 @@ public class Program {
         list.add(new Product("TV", 1780.50));
         list.add(new Product("Iphone", 8500.45));
 
-        Collections.sort(list);
+        list.sort(new MyComparator());
 
         for (Product p : list) {
             System.out.println(p);
