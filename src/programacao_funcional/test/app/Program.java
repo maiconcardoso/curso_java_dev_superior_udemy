@@ -14,9 +14,8 @@ public class Program {
         list.add(new Product("TV", 1780.50));
         list.add(new Product("Iphone", 8500.45));
 
-        Comparator<Product> comp = (p1, p2) -> {
-            return p1.getName().toUpperCase().compareTo(p2.getName().toUpperCase());
-        }; 
+        Comparator<Product> comp = (p1, p2) -> 
+            p1.getName().toUpperCase().compareTo(p2.getName().toUpperCase()); 
 
         list.sort(comp);
 
