@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Program",
+            "request": "launch",
+            "mainClass": "programacao_funcional.test.app.Program",
+            "projectName": "projeto_java_2db18b05"
+        },
+        {
+            "type": "java",
             "name": "HashMapDemo",
             "request": "launch",
             "mainClass": "set_map.book.hash_map.HashMapDemo",
