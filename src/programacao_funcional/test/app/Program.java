@@ -2,6 +2,7 @@ package programacao_funcional.test.app;
 
 import java.util.ArrayList;
 import java.util.List;
+import java.util.function.Consumer;
 
 import programacao_funcional.test.entities.Product;
 
@@ -14,7 +15,9 @@ public class Program {
         list.add(new Product("Tablet", 350.50));
         list.add(new Product("HD Case", 80.90));
 
-        list.forEach(Product::nonStaticPriceUpdate);
+        Consumer<Product> cons = p -> p.setPrice(p.getPrice() * 1.1);
+
+        list.forEach(cons);
 
         list.forEach(System.out::println);
 
