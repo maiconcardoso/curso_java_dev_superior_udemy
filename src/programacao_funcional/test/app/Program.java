@@ -2,8 +2,10 @@ package programacao_funcional.test.app;
 
 import java.util.ArrayList;
 import java.util.List;
+import java.util.stream.Collectors;
 
 import programacao_funcional.test.entities.Product;
+import programacao_funcional.test.util.UpperCaseName;
 
 public class Program {
     public static void main(String[] args) {
@@ -14,9 +16,9 @@ public class Program {
         list.add(new Product("Tablet", 350.50));
         list.add(new Product("HD Case", 80.90));
 
-        list.forEach(p -> p.setPrice(p.getPrice() * 1.1));
+        List<String> names = list.stream().map(new UpperCaseName()).collect(Collectors.toList());
 
-        list.forEach(System.out::println);
+        names.forEach(System.out::println);
 
     }
 }
