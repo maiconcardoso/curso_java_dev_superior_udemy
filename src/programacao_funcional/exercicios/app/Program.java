@@ -30,7 +30,6 @@ public class Program {
                 String name = fields[0];
                 Double price = Double.parseDouble(fields[1]);
                 list.add(new Product(name, price));
-                line = br.readLine();
             }
 
             double avg = list.stream()
