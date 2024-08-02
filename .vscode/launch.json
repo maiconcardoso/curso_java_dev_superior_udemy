@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Program",
+            "request": "launch",
+            "mainClass": "jdbc.app.Program",
+            "projectName": "projeto_java_2db18b05"
+        },
+        {
+            "type": "java",
             "name": "EmployeeDemo",
             "request": "launch",
             "mainClass": "programacao_funcional.exercicios.app.EmployeeDemo",
