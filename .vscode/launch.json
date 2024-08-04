@@ -8,6 +8,13 @@
             "type": "java",
             "name": "Program",
             "request": "launch",
+            "mainClass": "jdbc3.app.Program",
+            "projectName": "projeto_java_2db18b05"
+        },
+        {
+            "type": "java",
+            "name": "Program",
+            "request": "launch",
             "mainClass": "jdbc2.app.Program",
             "projectName": "projeto_java_2db18b05"
         },
